@@ -74,8 +74,8 @@ for i in range (0, 5):
 		tryClick("txfscheckbox2")
 		tryClick("txfscheckbox3")
 		driver.find_element_by_class_name('submit').click()
-		sleep(1) # 防止有验证码没加载
-		yzm()
+#		sleep(1) # 防止有验证码没加载
+#		yzm()
 		success = True
 		break
 	except:
